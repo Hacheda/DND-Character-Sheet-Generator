@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(218, 220, 240);
+
+    
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+    }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+.button button {
+    background-color: #244dd641; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 200px;
+}
+
+input {
+    width: 190px;
+    height: 30px;
+    text-align: center;
+}
+
+.box-align {
+    position: relative;
+    left: -150px;
+    top: 415px;   
+}
+
+.box-align2 {
+    position: relative;
+    left: -150px;
+    top: 360px;   
+}
+
+.box-align3 {
+    position: relative;
+    left: -150px;
+    top: 345px;   
+}
+
+.box-align4 {
+    position: relative;
+    left: -150px;
+    top: 327px;   
+}
+
+.text1 {
+    position: relative;
+    left: 60px;
+    top: 378px;   
+}
+
+.text2 {
+    position: relative;
+    left: 60px;
+    top: 323px;   
+}
+
+.text3 {
+    position: relative;
+    left: 60px;
+    top: 308px;   
+}
+
+.text4 {
+    position: relative;
+    left: 60px;
+    top: 290px;   
+}
+
+.refreshButton {
+    position: relative;
+    left: 60px;
+    top: 290px;   
+}
+
