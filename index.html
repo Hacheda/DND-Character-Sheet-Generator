@@ -6,6 +6,7 @@
 
     <head>
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="scripts.js"></script> 
         <script>
             function characterGenerator(){
                                     function charRace(){
@@ -305,8 +306,8 @@
         </script>
     </head>
     <body>
-        <div class="box-align button">
-            <button onclick="">First Name</button>
+        <div class="boxFirstName button">
+            <button onclick="charFirstName2()">First Name</button>
         </div>
         <div class="text1">
             <input type="text" id="fname" name="fname">
@@ -314,20 +315,20 @@
         <div class="button refreshButton">
             <button onclick="characterGenerator()">Refresh Character</button>
         </div>
-        <div class="box-align2 button">
-            <button onclick="">Last Name</button>
+        <div class="boxLastName button">
+            <button onclick="charLastName2()">Last Name</button>
         </div>
         <div class="text2">
             <input type="text" id="lname" name="lname">
         </div>
-        <div class="box-align3 button">
-            <button onclick="charRace()">Race</button>
+        <div class="button boxRace">
+            <button onclick="charRace2()">Race</button>
         </div>
         <div class="text3">
             <input type="text" id="cRace" name="cRace">
         </div>
-        <div class="box-align4 button">
-            <button onclick="">Class</button>
+        <div class="boxClass button">
+            <button onclick="charClass2()">Class</button>
         </div>
         <div class="text4">
             <input type="text" id="cClass" name="cClass">
