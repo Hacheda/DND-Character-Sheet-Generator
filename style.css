@@ -4,7 +4,7 @@ body {
     
     text-align: center;
     margin: auto;
-    width: 50%;
+    width: 0%;
     padding: 10px;
 
     }
@@ -16,7 +16,7 @@ body {
   
   p {
     font-family: verdana;
-    font-size: 20px;
+    font-size: px;
   }
 
 .button button {
@@ -37,57 +37,56 @@ input {
     text-align: center;
 }
 
-.box-align {
+.boxFirstName {
     position: relative;
-    left: -150px;
+    left: -220px;
     top: 415px;   
 }
 
-.box-align2 {
+.boxLastName {
     position: relative;
-    left: -150px;
+    left: -220px;
     top: 360px;   
 }
 
-.box-align3 {
+.boxRace {
     position: relative;
-    left: -150px;
+    left: -220px;
     top: 345px;   
 }
 
-.box-align4 {
+.boxClass {
     position: relative;
-    left: -150px;
+    left: -220px;
     top: 327px;   
 }
 
 .text1 {
     position: relative;
-    left: 60px;
+    left: 0px;
     top: 378px;   
 }
 
 .text2 {
     position: relative;
-    left: 60px;
+    left: 0px;
     top: 323px;   
 }
 
 .text3 {
     position: relative;
-    left: 60px;
+    left: 0px;
     top: 308px;   
 }
 
 .text4 {
     position: relative;
-    left: 60px;
+    left: 0px;
     top: 290px;   
 }
 
 .refreshButton {
     position: relative;
-    left: 60px;
+    left: 0px;
     top: 290px;   
 }
-
