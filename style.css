@@ -1,3 +1,13 @@
+.wrapper {
+    margin-right: auto;
+    margin-left:  auto;
+  
+    max-width: 960px;
+  
+    padding-right: 10px;
+    padding-left:  10px;
+}
+
 body {
     background-color: rgb(218, 220, 240);
 
@@ -7,12 +17,7 @@ body {
     width: 0%;
     padding: 10px;
 
-    }
-  
-  h1 {
-    color: white;
-    text-align: center;
-  }
+}
   
   p {
     font-family: verdana;
@@ -30,7 +35,6 @@ body {
     font-size: 16px;
     cursor: pointer;
     width: 200px;
-
     
 }
 
@@ -110,16 +114,6 @@ input {
     left: 0px;
     top: 290px;
     z-index: 2;   
-}
-
-.wrapper {
-    margin-right: auto;
-    margin-left:  auto;
-  
-    max-width: 960px;
-  
-    padding-right: 10px;
-    padding-left:  10px;
 }
 
 .emptyBox {
