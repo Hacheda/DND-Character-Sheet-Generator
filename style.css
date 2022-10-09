@@ -2,7 +2,7 @@
     margin-right: auto;
     margin-left: auto;
 
-    max-width: 100%;
+    max-width: 960px;
 
     padding-right: 10px;
     padding-left: 10px;
@@ -10,7 +10,9 @@
 
 
 body {
-    background-color: rgb(218, 220, 240);
+    
+    background: rgb(81,77,144);
+    background: linear-gradient(90deg, rgba(81,77,144,1) 0%, rgba(61,144,171,1) 35%, rgba(0,212,255,1) 100%);
 
     
     text-align: center;
@@ -25,31 +27,34 @@ p {
   }
 
   .emptyBox {
-    background-color: #d689248e; 
+    background-color: #e2bb89; 
     border: none;
     color: rgb(0, 0, 0);
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    width: 50%;
-    height: 50%;
+    width: 500px;
+    height: 500px;
     border-radius: 5%;
-    position: fixed;
-    left: 25%;
-    top: 25%;  
+    position: relative;
+    left: 0%;
+    top: 250px;  
     z-index: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .button button {
-    background-color: #8ae4e7; 
+    background-color: #ffffff; 
     border: none;
     color: rgb(0, 0, 0);
-    padding: 10px 10px;
+    padding: 13px 10px;
     text-decoration: none;
     display: inline-block;
     font-size: 100%;
     cursor: pointer;
-    width: 30%;
+    width: 210px;
+    border-style: solid;
+    border-width: 1px;
     
 }
 
@@ -59,94 +64,92 @@ p {
   
   }
 
-.textContainer {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0);
-    height: 60%;
-    width: 50%;
-    left: 40%;
-    top: 20%;
-}
-
 input {
-    position: relative;
     height: 40px;
-    width: 80%;
+    width: 200px;
     text-align: center;
 }
 
 
 .text1 {
-    position: relative;
-    left: 0%;
-    top: 15%;
+    position: absolute;
+    left: 250px;
+    top: 150px;
     z-index: 2;
 }
 
 .text2 {
-    position: relative;
-    left: 0%;
-    top: 20%;
+    position: absolute;
+    left: 250px;
+    top: 220px;
     z-index: 2;   
 }
 
 .text3 {
-    position: relative;
-    left: 0%;
-    top: 25%;
+    position: absolute;
+    left: 250px;
+    top: 290px;
     z-index: 2;     
 }
 
 .text4 {
-    position: relative;
-    left: 0%;
-    top: 30%;
+    position: absolute;
+    left: 250px;
+    top: 360px;
     z-index: 2;     
 }
 
 .boxFirstName {
-    position: relative;
-    left: -30%;
-    top: 30%;
+    position: absolute;
+    left: 30px;
+    top: 150px;
     z-index: 2;
     text-align: center;
 }
 
 .boxLastName {
-    position: relative;
-    left: -30%;
-    top: 27%;   
+    position: absolute;
+    left: 30px;
+    top: 220px;   
     z-index: 2;
     text-align: center;  
 }
 
 .boxRace {
-    position: relative;
-    left: -30%;
-    top: 31%;   
+    position: absolute;
+    left: 30px;
+    top: 290px;   
     z-index: 2;
     text-align: center;  
 }
 
 .boxClass {
-    position: relative;
-    left: -30%;
-    top: 36%;   
+    position: absolute;
+    left: 30px;
+    top: 360px;   
     z-index: 2;
     text-align: center;  
 }
 
 .refreshButton {
-    position: relative;
-    left: 15%;
-    top: 5%;
+    position: absolute;
+    left: 250px;
+    top: 80px;
     z-index: 2;   
 }
 
 .tBoxPos {
-    position: relative;
-    left: 0%;
-    top: -35%;
+    position: absolute;
+    left: 0px;
+    top: 10px;
     width: 200px;  
     z-index: 2;
 } 
+
+.tBox2 {
+    position: absolute;
+    left: 70px;
+    top:  80px;
+    width: 120px;
+    z-index: 2;
+}
