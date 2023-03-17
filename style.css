@@ -1,155 +1,81 @@
-.wrapper {
-    margin-right: auto;
-    margin-left: auto;
-
-    max-width: 960px;
-
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-
 body {
-    
-    background: rgb(81,77,144);
-    background: linear-gradient(90deg, rgba(81,77,144,1) 0%, rgba(61,144,171,1) 35%, rgba(0,212,255,1) 100%);
+  background: rgb(81, 77, 144);
+  background: linear-gradient(
+    90deg,
+    rgba(81, 77, 144, 1) 0%,
+    rgba(61, 144, 171, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 
-    
-    text-align: center;
-    margin: auto;
-
+  text-align: center;
+  margin: auto;
 }
 
-  
-p {
-    font-family: verdana;
-    font-size: 50%;
-  }
-
-  .emptyBox {
-    background-color: #e2bb89; 
-    border: none;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    border-radius: 5%;
-    position: relative;
-    left: 0%;
-    top: 250px;  
-    z-index: 0;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+.wrapper {
+  padding: 15px;
+  margin: auto;
+  margin-top: 50px;
+  width: 80vw;
+  max-width: 600px;
+  background-color: rgba(255, 127, 80, 0.658);
+  padding-top: 50px;
 }
 
-.button button {
-    background-color: #ffffff; 
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 13px 10px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 100%;
-    cursor: pointer;
-    width: 210px;
-    border-style: solid;
-    border-width: 1px;
-    
+.wrapper input {
+  font-size: large;
+  border: white;
+  height: 20px;
+  text-align: center;
 }
 
-.button:active {
-    
-    transform: translateY(2px);
-  
-  }
-
-input {
-    height: 40px;
-    width: 200px;
-    text-align: center;
+.wrapper button {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-
-.text1 {
-    position: absolute;
-    left: 250px;
-    top: 150px;
-    z-index: 2;
+#refresh-button {
+  margin-top: 50px;
 }
 
-.text2 {
-    position: absolute;
-    left: 250px;
-    top: 220px;
-    z-index: 2;   
+.wrapper button {
+  appearance: button;
+  background-color: #1652f0;
+  border: 1px solid #1652f0;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 1.15;
+  overflow: visible;
+  padding: 8px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
 }
 
-.text3 {
-    position: absolute;
-    left: 250px;
-    top: 290px;
-    z-index: 2;     
+.wrapper button:disabled {
+  opacity: 0.5;
 }
 
-.text4 {
-    position: absolute;
-    left: 250px;
-    top: 360px;
-    z-index: 2;     
+.wrapper button:focus {
+  outline: 0;
 }
 
-.boxFirstName {
-    position: absolute;
-    left: 30px;
-    top: 150px;
-    z-index: 2;
-    text-align: center;
+.wrapper button:hover {
+  background-color: #0a46e4;
+  border-color: #0a46e4;
 }
 
-.boxLastName {
-    position: absolute;
-    left: 30px;
-    top: 220px;   
-    z-index: 2;
-    text-align: center;  
-}
-
-.boxRace {
-    position: absolute;
-    left: 30px;
-    top: 290px;   
-    z-index: 2;
-    text-align: center;  
-}
-
-.boxClass {
-    position: absolute;
-    left: 30px;
-    top: 360px;   
-    z-index: 2;
-    text-align: center;  
-}
-
-.refreshButton {
-    position: absolute;
-    left: 250px;
-    top: 80px;
-    z-index: 2;   
-}
-
-.tBoxPos {
-    position: absolute;
-    left: 0px;
-    top: 10px;
-    width: 200px;  
-    z-index: 2;
-} 
-
-.tBox2 {
-    position: absolute;
-    left: 70px;
-    top:  80px;
-    width: 120px;
-    z-index: 2;
+.wrapper button:active {
+  background-color: #0039d7;
+  border-color: #0039d7;
 }
